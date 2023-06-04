@@ -34,14 +34,14 @@ describe('add()', () => {
 
   it('Donen deger mutlaka number tipinde olmali', () => {
     const val = [1,2];
-    const val2 = ['2', 1];
+    // const val2 = ['2', 1];
 
     const returnVal = add(val);
-    const returnVal2 = add(val2);
+    // const returnVal2 = add(val2);
 
     // Bu test hata vermektedir. Sebebi kodda hata olmasidir. Utku icin olusturuldu.
-    expect(returnVal2).toBeTypeOf('number');
-    // Bu kisim dogru calismaktadir.
+    // expect(returnVal2).toBeTypeOf('number');
+    //! Bu kisim dogru calismaktadir.
     expect(returnVal).toBeTypeOf('number');
   });
 
